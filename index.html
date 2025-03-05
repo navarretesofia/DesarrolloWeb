@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Primer ejemplo</title>
+        <!-- Usando CSS Grid Generator - https://cssgridgenerator.io/ -->
+        <style>
+            body{
+                font-family: helvetica;
+                text-align: center;}
+       
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10vh;}
+
+
+        footer{
+            padding-top: 10vh;
+        }
+
+        }
+        
+        </style>
+    </head>
+    <body>
+
+         <header >
+            <h1>Estadísticas Demográficas de Chile 2024</h1>
+        </header>
+   
+
+        <main class="parent">
+            <div class="div2">
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="91 9" stroke-dashoffset="0"></circle>
+                  <text x="21" y="22" font-size="5" text-anchor="middle" fill="f00"> 91% </text>
+
+                </svg>
+
+             <p>91% de los Acuerdos de Unión Civil tienen a contrayentes de diferente sexo (Datos de INE, diciembre 2024).</p> </div>
+
+
+            <div class="div3"> 
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="0"></circle>
+
+                        <text x="21" y="22" font-size="5" text-anchor="middle" fill="f00"> 30% </text>
+                </svg>
+
+
+                <p>El 30% de los nacimientos totales tiene al grupo de edad de la madre entre los 30 y 40 años  (Datos de INE, diciembre 2024).</p> </div>
+
+
+            <div class="div4"> 
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="51 49" stroke-dashoffset="0"></circle>
+
+                        <text x="21" y="22" font-size="5" text-anchor="middle" fill="f00"> 51% </text>
+                </svg>
+
+
+                <p>51% del número de Defunciones totales de 2024 corresponden al género maculino (Datos de INE, diciembre 2024). </p> </div>
+
+
+            <div class="div5"> 
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="donut">
+                  <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+                  <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="5 95" stroke-dashoffset="0"></circle>
+
+                        <text x="21" y="22" font-size="5" text-anchor="middle" fill="f00"> 5% </text>
+                </svg>
+
+
+                <p>El 5% de los nacimientos de 2024 tuvieron lugar en la Región de la Araucanía (Datos de INE, diciembre 2024).</p> </div>
+        </main>
+
+
+        <footer>
+            <p><small> Sofía Navarrete 2025 </small></p>
+        </footer>
+    
+    </body>
+</html>
